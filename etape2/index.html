@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TP4 - Etape 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="table_container">
+        <table>
+            <tr>
+                <th class="col_number">N°</th>
+                <th class="col_text">Nom</th>
+                <th class="col_text">Prénom</th>
+                <th class="col_number">Points</th>
+                <th class="col_chkbox">Select</th>
+            </tr>
+            <tr>
+                <td class="col_number">1</td>
+                <td class="col_text">Nom1</td>
+                <td class="col_text">Prénom1</td>
+                <td class="col_number">5</td>
+                <td class="col_chkbox"><input type="checkbox"/></td>
+            </tr>
+        </table>
+        <!-- Bouton Ajouter (Étape 2) -->
+        <button onclick="doInsertRowTable(99, 'nom', 'prenom', 10)">Ajouter</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

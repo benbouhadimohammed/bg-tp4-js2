@@ -1,0 +1,29 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+#table_container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.col_number {
+    text-align: center;
+    width: 50px;
+}
+
+.col_chkbox {
+    text-align: center;
+    width: 60px;
+}
